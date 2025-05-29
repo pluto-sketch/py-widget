@@ -56,7 +56,7 @@ class WidgetDashboard(QWidget):
         super().__init__()
 
         # Load external QSS for styling
-        with open("/home/pluto/Desktop/py-widget/themes/glass.qs", "r") as f:
+        with open("glass.qs", "r") as f:
             self.setStyleSheet(f.read())
 
         # Load widgets config
