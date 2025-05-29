@@ -29,6 +29,7 @@ Because who doesn’t want a stylish little floating dashboard showing CPU, RAM,
 * PyQt5
 * psutil
 * Cython (for compiling `system_stats.pyx`)
+* pyinstaller
 
 ---
 
@@ -61,10 +62,11 @@ Because who doesn’t want a stylish little floating dashboard showing CPU, RAM,
 
 ## Usage
 
-Run the main dashboard app:
+Run the main dashboard app go to the dist in the project directory and run it:
 
 ```bash
-python main.py
+    cd dist
+    ./py-widget
 ```
 
 The dashboard will pop up on your screen, showing widgets as defined in your JSON config. Click icons to run their commands. Drag to move around.
